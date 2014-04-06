@@ -1,9 +1,9 @@
 demo-glsl
 =========
 
-Cloned from https://code.google.com/p/demo-glsl/ for further research.
-The exec folder contains everything required for running the demo.
-Solution updated to VS2013 plus fixed several compilation issues that surfaced due to this new dev environment. 
+- Cloned from https://code.google.com/p/demo-glsl/ for further research.
+- The exec folder contains everything required for running the demo.
+- Solution updated to VS2013 plus fixed several compilation issues that surfaced due to this new dev environment. 
 
 
 
