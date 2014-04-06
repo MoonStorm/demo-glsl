@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{c33a17f7-07c3-462f-99f3-3d3bffb6167f}</UniqueIdentifier>
+      <Extensions>c, cpp, h, hpp</Extensions>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{798ef30a-ad4f-4b7c-ab78-f55d28623394}</UniqueIdentifier>
+      <Extensions>c, cpp, h, hpp</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{a141b7a8-fb64-4082-95cd-9f2da04c9a90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain">
+      <UniqueIdentifier>{6c7199e3-a706-4db9-883a-1317c8fe2a40}</UniqueIdentifier>
+      <Extensions>c, cpp, h, hpp</Extensions>
+    </Filter>
+    <Filter Include="Spline3D">
+      <UniqueIdentifier>{5fc94541-ea7c-4598-a360-7aeed4897bc4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BoundingBox.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBufferObject.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustum.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="glInfo.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageTools.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Inputs.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathlib.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceBase.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureCubemap.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="VarManager.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBufferObject.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\SceneBase.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\SceneManager.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\SceneSimple.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\SceneTerrain.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\SceneTestFur.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\SceneTestParallax.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\SceneTestRefraction.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\SceneTestShadowMapping.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\SceneToon.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Script.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\Quadtree.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\QuadtreeNode.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\Terrain.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\TerrainChunk.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\TerrainObject.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Spline3D\Interpol.h">
+      <Filter>Spline3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Spline3D\Interpol3D.h">
+      <Filter>Spline3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Spline3D\InterpolNonFonct.h">
+      <Filter>Spline3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Spline3D\InterpolSpline.h">
+      <Filter>Spline3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Spline3D\SplineGL.h">
+      <Filter>Spline3D</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameBufferObject.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Frustum.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="glInfo.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageTools.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Inputs.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureCubemap.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="VarManager.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBufferObject.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\SceneBase.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\SceneManager.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\SceneSimple.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\SceneTerrain.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\SceneTestFur.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\SceneTestParallax.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\SceneTestRefraction.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\SceneTestShadowMapping.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\SceneToon.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Script.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\Quadtree.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\QuadtreeNode.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\Terrain.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\TerrainChunk.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\TerrainObject.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Spline3D\Interpol.cpp">
+      <Filter>Spline3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Spline3D\Interpol3D.cpp">
+      <Filter>Spline3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Spline3D\InterpolNonFonct.cpp">
+      <Filter>Spline3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Spline3D\InterpolSpline.cpp">
+      <Filter>Spline3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Spline3D\SplineGL.cpp">
+      <Filter>Spline3D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="exec\shaders\anaglyph.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\anaglyph.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\blur.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\blur.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\bright.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\bright.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\depthblur.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\depthblur.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\fur.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\fur.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\lighting.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\lighting.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\lighting_bump.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\lighting_bump.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\lighting_phong.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\lighting_phong.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\postfx.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\postfx.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\reflection_refraction_perpixel3.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\reflection_refraction_perpixel3.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\shadow_mapping.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\shadow_mapping.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\sky.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\sky.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\terrain_grass.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\terrain_grass.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\terrain_ground.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\terrain_ground.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\terrain_tree.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\terrain_tree.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\terrain_water.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\terrain_water.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\toon.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="exec\shaders\toon.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
