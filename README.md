@@ -9,6 +9,7 @@ Solution updated to VS2013 plus fixed several compilation issues that surfaced d
 
 Original comments:
 
+```
 =============================
 == GLSL Demo, made in 2008 ==
 =============================
@@ -35,3 +36,4 @@ T:     show/hide camera splines
 F2:    reload and recompile the shaders (lets you iterate faster if you want to play with the shader source code)
 
 Have fun!
+```
