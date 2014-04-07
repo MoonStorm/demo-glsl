@@ -405,11 +405,7 @@ void Mesh::ComputeTangents()
     
     delete[] tan1;
 */
-
-
-
 }
-
 
 void Mesh::Draw()
 {
@@ -417,8 +413,14 @@ void Mesh::Draw()
 
 	m_pVBO->Enable();
 
-	for(std::vector<sGroup>::iterator it=m_tGroup.begin(); it!=m_tGroup.end(); it++)
-		glDrawElements(GL_TRIANGLES, (GLsizei)(*it).tFace.size()*3, GL_UNSIGNED_INT, &((*it).tFace[0].ind[0]));
+	for (std::vector<sGroup>::iterator it = m_tGroup.begin(); it != m_tGroup.end(); it++)
+	{
+		std::vector<sFace> face = it->tFace; 
+		if (face.size()>0)
+		{
+			glDrawElements(GL_TRIANGLES, face.size() * 3, GL_UNSIGNED_INT, &(face[0].ind[0]));
+		}
+	}
 
 	m_pVBO->Disable();
 }
@@ -428,12 +430,13 @@ void Mesh::Draw(GLuint group)
 	assert(group < getGroupCount());
 	assert(m_pVBO);
 
-	m_pVBO->Enable();
+	std::vector<sFace> face = m_tGroup[group].tFace;
+	if (face.size()>0)
+	{
+		m_pVBO->Enable();
 
-	glDrawElements(GL_TRIANGLES, (GLsizei)m_tGroup[group].tFace.size()*3, GL_UNSIGNED_INT, &(m_tGroup[group].tFace[0].ind[0]));
+		glDrawElements(GL_TRIANGLES, face.size() * 3, GL_UNSIGNED_INT, &(face[0].ind[0]));
 
-	m_pVBO->Disable();
+		m_pVBO->Disable();
+	}
 }
-
-
-
